@@ -1,2 +1,2 @@
 # TOUR_HTML
-Mi primer proyecto de Modulo 1: Introducción A Los Elementos Básicos De HTML, CSS
+Mi primer proyecto de Modulo 3: avaScript: sentencia, expresión, variable, función, objeto y DOM
