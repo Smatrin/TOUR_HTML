@@ -35,13 +35,21 @@
 
                 <article>
                      <h1><img src="images/pin.png" alt="Travel category" class="cat_icon" />Nuestro Oferta</h1>
-                    <p>*Boleto aéreo de viaje ida y vuelta.</p>
-                    <p>Transporte aeropuerto - hotel.</p>
-                    <p>Pasaje de bus a Ollantaytambo.</p>
-                    <p>Pasaje de tren ida y vuelta a Machu Picchu .</p>
-                    <p>Tour de día completo a la montaña Arcoíris.</p>
-                    <p>Visitas guiadas a lugares importante (Casco Urbano).</p>
-                     <p>Ambiente familiar y mucha diversión.</p>
+                     <p>*Boleto aéreo de viaje ida y vuelta.</p>
+                    <p>-Transporte aeropuerto - hotel.</p>
+                    <p>-Pasaje de bus a Ollantaytambo.</p>
+                    <p>-Pasaje de tren ida y vuelta a Machu Picchu .</p>
+                    <p>-Tour de día completo a la montaña Arcoíris.</p>
+                    <p>-Visitas guiadas a lugares importante (Casco Urbano).</p>
+                     <p>-Ambiente familiar y mucha diversión.</p>
+
+                       <h1>El cambio de moneda es de   $1.00 = S/3.33 
+                        <p>
+                       <script type="text/javascript">
+                        var soles= 100
+                        document.write(soles + " Soles son " + soles*0.30 + " Dolares<br>");
+                       </script>
+
                     <h1> <img src="images/pin.png"/> Fecha : Del 1 al 6 de Agosto 2019 </h2>
                     <p id="Itinerario"><img src="images/itinerario.jpg" alt="Itinerario" /></p>
                     <h2> <img src="images/pin.png"/> Historia de Machu Picchu </h2>
@@ -52,6 +60,23 @@
                
 
                 <aside>
+                     <h2 id="h1">LUIS ERNESTO</h2>
+                               <h1 id="h1">La fecha y la hora son:</h1>
+                              <div id="fecha"></div>
+                 
+                          
+                           <script type="text/javascript">
+                               var fecha = new Date();
+                                var msj;
+
+                             if      (fecha.getHours() < 7)  { msj = "Buenas noches!";}
+                             else if (fecha.getHours() < 12) { msj = "Buenos días!";}
+                                 else if (fecha.getHours() < 21) { msj = "Buenas tardes!";}
+                                   else   { msj = "Buenas noches";}
+
+                                    document.getElementById("h1").innerHTML    = msj;
+                                   document.getElementById("fecha").innerHTML = fecha;
+                            </script>
                     <h1>Acerca de Perú</h1>
                     <img src="images/arrow.png" alt="" id="arrow" />
                     <p id="cusco"><img src="images/cusco.jpg" alt="cusco" /></p>
